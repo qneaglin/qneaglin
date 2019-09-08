@@ -1,3 +1,8 @@
+---
+title: Connect to the ownCloud Server Using the Desktop Client
+layout: user
+---
+
 ## Connect to the ownCloud Server Using the Desktop Client 
 1. On your Windows device, open a web browser and go to the following web site:
 ```
