@@ -1,3 +1,8 @@
+---
+title: Quickstart for Users
+layout: user
+---
+
 # Quickstart for Users
 This Quickstart is for ownCloud users. It provides information about connecting to the ownCloud server, using a Windows desktop or mobile client. Mobile client applications are available for Android and iOS devices. 
 * [Windows desktop client](./windows.html)
