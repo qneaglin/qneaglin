@@ -1,3 +1,8 @@
+---
+title: Connect to the ownCloud Server Using the Android Application
+layout: user
+---
+
 ## Connect to the ownCloud Server Using the Android Application 
 1. Download the Android mobile application from Google Play store.
 2. When you open the ownCloud Android application after installation, the **Configuration** window is displayed. 
