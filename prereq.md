@@ -1,3 +1,8 @@
+---
+title: Verify the Prerequisites for Installation
+layout: admin
+---
+
 ## Verify the Prerequisites for Installation
 
 ### Confirm the Specifications for Small Workgroups and Departments 
