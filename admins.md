@@ -1,3 +1,7 @@
+---
+title: Quickstart for Administrators
+layout: admins
+---
 # Quickstart for Administrators
 
 This Quickstart is for administrators of small workgroups and departments. It provides information about installing and configuring the ownCloud server environment. Complete the following steps in the order listed:
