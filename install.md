@@ -1,3 +1,8 @@
+---
+title: Install the ownCloud Server
+layout: admin
+---
+
 ## Install the ownCloud Server	
 As an administrator, you can install the ownCloud server by completing the following steps:
 1. Ensure that your system meets the minimum system requirements. For a list of these requirements, see [Verify the Prerequisites for Installation](./prereq.html). 
