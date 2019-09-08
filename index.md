@@ -1,4 +1,5 @@
 ---
+title: ownCloud Quickstart
 layout: default
 ---
 
