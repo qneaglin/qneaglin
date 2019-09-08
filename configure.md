@@ -1,3 +1,8 @@
+---
+title: Configure the ownCloud Server Environment
+layout: admin
+---
+
 ## Configure the ownCloud Server Environment
 ### Configure the Apache Web Server
 In order for your users to connect to the ownCloud server, you must configure Apache, which will enable users to connect to the ownCloud server. Complete the following steps:
