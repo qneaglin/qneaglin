@@ -6,7 +6,7 @@ The file name is owncloud-x.y.z.tar.bz2, where x.y.z is the version number (for 
 3. Download the corresponding checksum file, for example, owncloud-x.y.z.tar.bz2.md5 or
 owncloud-x.y.z.tar.bz2.sha256.
 4. Verify the MD5 or SHA256 sum, by running the following commands for your archive type:
-
+```
     md5sum -c owncloud-x.y.z.tar.bz2.md5 < owncloud-x.y.z.tar.bz2
     
     sha256sum -c owncloud-x.y.z.tar.bz2.sha256 < owncloud-x.y.z.tar.bz2
@@ -14,13 +14,16 @@ owncloud-x.y.z.tar.bz2.sha256.
     md5sum -c owncloud-x.y.z.zip.md5 < owncloud-x.y.z.zip
     
     sha256sum -c owncloud-x.y.z.zip.sha256 < owncloud-x.y.z.zip
+```
 5. Extract the archive contents. Run the appropriate unpacking command for your archive type to unpack to a single ownCloud directory:
-
+```
     tar -xjf owncloud-x.y.z.tar.bz2
     
     unzip owncloud-x.y.z.zip 
+```    
 6. Copy the ownCloud directory to its destination:
-
+```
     cp -r owncloud /var/www
-    
-    Step 3: [Configure the ownCloud Server Environment](./configure.html)
+```    
+
+Step 3: [Configure the ownCloud Server Environment](./configure.html)
