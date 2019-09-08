@@ -12,7 +12,7 @@ In order for your users to connect to the ownCloud server, you must configure Ap
     a2enmod dir
     a2enmod mime
 ```
-**TIP:** If you want to use the OAuth2 app, then mod_headers must be installed and enabled.
+   **NOTE:** If you want to use the OAuth2 app, then mod_headers must be installed and enabled.
    
 3. Disable any server-configured authentication for ownCloud, as it uses Basic authentication internally for DAV services. If you have turned on authentication on a parent folder (for example, an AuthType Basic directive), you can disable the authentication specifically for the ownCloud entry. In the Apache configuration file, add the following line in the section:
 ```
@@ -33,27 +33,30 @@ You can use HTTP to access the ownCloud server. You can configure your system to
 
 To run the installation wizard, complete the following steps:
 1. Open a web browser from the machine that is hosting the Apache server and access the following URL:
-    http://localhost/owncloud
-2. Enter a user name and password for the administrator.
+```
+   http://localhost/owncloud
+```
+2. Enter the adminstrator's user name and password.
 3. Click **Finish setup**.
 
 ### Add Users
 By default, the ownCloud web client is installed on the ownCloud server machine. When you log in to the web client with your administrator credentials, you can perform tasks such as creating user accounts. You can also use the ownCloud command line interface to perform administration tasks. For more information, see [Using the occ Command](https://doc.owncloud.com/server/10.2/admin_manual/configuration/server/occ_command.html).
 
 To add user accounts to the ownCloud server, complete the following steps from the **default view** in the ownCloud web client:
-1. Open a web browser and navigate to the ownCloud server HTTP address, for example, http://<hostname>/owncloud.
-2. When prompted, enter your administrator user name and password.
+1. Open a web browser and navigate to the ownCloud server HTTP address (for example, http://*hostname*/owncloud).
+2. When prompted, enter the administrator's user name and password.
 3. Navigate to the User Management page.
 4. Enter the user name in the **Login Name** field.
 5. Enter the user’s email address in the **E-mail** field.
 6. Using the drop-down list, you can optionally assign the user to a group by selecting the group to which you want to add the user.
 7. Click **Create**.
 8. Optionally, you can enter the user’s full name in the **Full Name** field. 
-The user can complete this step later. 
+   
+   **NOTE:** The user can complete this step later. 
 
-Congratulations! You are now finished configuring your ownCloud server. There are additional steps you can perform for better performance and security. For more information, see [Manual Installation on Linux](https://doc.owncloud.org/server/10.2/admin_manual/installation/manual_installation.html). 
+***Congratulations!*** You are now finished configuring your ownCloud server. There are additional steps you can perform for better performance and security. For more information, see [Manual Installation on Linux](https://doc.owncloud.org/server/10.2/admin_manual/installation/manual_installation.html). 
 
-Provide your users with the following information:
-*The Web address of the ownCloud server.
-*Their user name and password for the ownCloud Server.
-*A link to the Quickstart for Users (link to that section). 
+**Provide your users with the following information:**
+* The Web address of the ownCloud server.
+* Their user name and password for the ownCloud Server.
+* A link to the Quickstart for Users (link to that section). 
