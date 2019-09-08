@@ -24,8 +24,9 @@ It is recommended that you have one server running the ownCloud application, web
 * Authentication: User authentication using LDAP or Active Directory. For more information, see [User Authentication with LDAP](https://doc.owncloud.org/server/10.2/admin_manual/configuration/user/user_auth_ldap.html).
 * Session Management: Local session management on the application server. PHP sessions are stored in a temporary filesystem, mounted at the operating system-specific session storage location.
 You can find out where that is by running `grep -R ‘session.save_path’ /etc/php5` and then add it to the **/etc/fstab** file, for example:
-
+```
     echo "tmpfs /var/lib/php5/pool-www tmpfs defaults,noatime,mode=1777 0 0" >> /etc/fstab``
+```
 * Memory Caching: A memory cache speeds up server performance, and ownCloud supports four of them. For more information, see [Configuring Memory Caching](https://doc.owncloud.org/server/10.2/admin_manual/configuration/server/caching_configuration.html).
 * Storage: Local storage options.
 * ownCloud Edition: Standard edition. For more information, see [Which Edition is Right for Me?](https://owncloud.com/standard-or-enterprise/). 
