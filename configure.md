@@ -1,6 +1,6 @@
 ---
 title: Configure the ownCloud Server Environment
-layout: admin
+layout: default
 ---
 
 ## Configure the ownCloud Server Environment
