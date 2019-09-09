@@ -28,6 +28,7 @@ In order for your users to connect to the ownCloud server, you must configure Ap
     service apache2 restart
 ```
 5. If you run ownCloud in a subdirectory and want to use CalDAV or CardDAV clients, make sure you have configured the correct Service discovery URLs.
+
 6. Multi-Processing Module (MPM) Apache prefork must be used. Do not use a threaded MPM like event or worker with mod_php, because PHP is currently [not thread safe](https://secure.php.net/manual/en/install.unix.apache2.php).
 
 ### Enable SSL/TLS 
@@ -49,12 +50,19 @@ By default, the ownCloud web client is installed on the ownCloud server machine.
 
 To add user accounts to the ownCloud server, complete the following steps from the **default view** in the ownCloud web client:
 1. Open a web browser and navigate to the ownCloud server HTTP address (for example, http://*hostname*/owncloud).
+
 2. When prompted, enter the administrator's user name and password.
+
 3. Navigate to the User Management page.
+
 4. Enter the user name in the **Login Name** field.
+
 5. Enter the user’s email address in the **E-mail** field.
+
 6. Using the drop-down list, you can optionally assign the user to a group by selecting the group to which you want to add the user.
+
 7. Click **Create**.
+
 8. Optionally, you can enter the user’s full name in the **Full Name** field. 
    
    **NOTE:** The user can complete this step later. 
