@@ -11,8 +11,8 @@ For ***administrators***, the following assumptions exist:
 * You meet the specifications for small workgroups and departments.
 * Your users will access the oneCloud server using a Windows desktop or mobile client.
 
-**[For details, see Quickstart for Administrators](./admins.html).
+[For details, see Quickstart for Administrators](./admins.html).
 
 For ***users***, you will connect to the oneCloud server using a Windows desktop or mobile client.
 
-**[For details, see Quickstart for Users](./users.html).
+[For details, see Quickstart for Users](./users.html).
