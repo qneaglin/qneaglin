@@ -43,6 +43,7 @@ To run the installation wizard, complete the following steps:
    http://localhost/owncloud
 ```
 2. Enter the adminstrator's user name and password.
+
 3. Click **Finish setup**.
 
 ### Add Users
