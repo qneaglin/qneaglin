@@ -1,6 +1,6 @@
 ---
 title: Connect to the ownCloud Server Using the Android Application
-layout: user
+layout: default
 ---
 
 ## Connect to the ownCloud Server Using the Android Application 
