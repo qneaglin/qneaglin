@@ -1,6 +1,6 @@
 ---
 title: Install the ownCloud Server
-layout: admin
+layout: default
 ---
 
 ## Install the ownCloud Server	
