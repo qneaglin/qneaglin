@@ -24,12 +24,14 @@ owncloud-x.y.z.tar.bz2.sha256).
     sha256sum -c owncloud-x.y.z.zip.sha256 < owncloud-x.y.z.zip
 ```
 
+
 5. Extract the archive contents. Run the appropriate unpacking command for your archive type to unpack to a single ownCloud directory:
 ```
     tar -xjf owncloud-x.y.z.tar.bz2
     
     unzip owncloud-x.y.z.zip 
 ```    
+
 
 6. Copy the ownCloud directory to its destination:
 ```
