@@ -1,6 +1,6 @@
 ---
 title: Connect to the ownCloud Server Using the iOS Application
-layout: admin
+layout: default
 ---
 
 ## Connect to the ownCloud Server Using the iOS Application 
