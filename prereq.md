@@ -1,6 +1,6 @@
 ---
 title: Verify the Prerequisites for Installation
-layout: admin
+layout: default
 ---
 
 ## Verify the Prerequisites for Installation
