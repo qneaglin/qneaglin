@@ -10,8 +10,8 @@ As an administrator, you can install the ownCloud server by completing the follo
 2. Download the [tarball](https://owncloud.org/download/#owncloud-server-tar-ball). 
    The file name is owncloud-x.y.z.tar.bz2, where x.y.z is the version number (for example, ownCloud-10.2.1.tar.bz2).
 
-3. Download the corresponding checksum file, for example, owncloud-x.y.z.tar.bz2.md5 or
-owncloud-x.y.z.tar.bz2.sha256.
+3. Download the corresponding checksum file (for example, owncloud-x.y.z.tar.bz2.md5 or
+owncloud-x.y.z.tar.bz2.sha256).
 
 4. Verify the MD5 or SHA256 sum, by running the following commands for your archive type:
 ```
