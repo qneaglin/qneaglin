@@ -1,6 +1,6 @@
 ---
 title: Quickstart for Administrators
-layout: admins
+layout: default
 ---
 # Quickstart for Administrators
 
